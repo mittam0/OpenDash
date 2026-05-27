@@ -1,0 +1,20 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+app.py
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Environment & OS
+.env
+.DS_Store
+*.log
